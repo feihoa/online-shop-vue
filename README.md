@@ -1,5 +1,11 @@
 # online-shop-vue
 
+vuex
+axios vue
+sass
+json server
+
+
 ## Project setup
 ```
 npm install
