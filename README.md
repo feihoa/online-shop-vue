@@ -3,7 +3,7 @@
 
 -vue
 -vuex
--axios vue
+-axios
 -sass
 -json server
 
