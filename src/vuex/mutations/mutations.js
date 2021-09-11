@@ -22,8 +22,7 @@ export default{
         state.cart.splice(index, 1)
     },
     INCREMENT: (state, index) => {
-            state.cart[index].quantity++
-        
+            state.cart[index].quantity++     
     },
     DECREMENT: (state, index) => {
         if(state.cart[index].quantity > 1){
