@@ -1,11 +1,12 @@
 # online-shop-vue
 
-
+#
 -vue
 -vuex
 -axios
 -sass
 -json server
+#
 
 ## Project setup
 ```
