@@ -1,10 +1,11 @@
 # online-shop-vue
 
-vuex
-axios vue
-sass
-json server
 
+-vue
+-vuex
+-axios vue
+-sass
+-json server
 
 ## Project setup
 ```
@@ -16,14 +17,9 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Launching a json server that returns 6 products
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run server
 ```
 
 ### Customize configuration
