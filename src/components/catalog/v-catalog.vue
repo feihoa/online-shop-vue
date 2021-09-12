@@ -5,7 +5,7 @@
         </router-link>
         <h2>Catalog</h2>
         <div class="v-catalog__list">
-        <vCatalogItem 
+       <vCatalogItem 
             v-for="product in PRODUCTS"
             :key="product.article"
             v-bind:product_data="product"

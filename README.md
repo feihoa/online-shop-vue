@@ -11,6 +11,7 @@
 **-sass**
 **-json server**
 
+## FOR GH-PAGES: IF THE LOCAL SERVER FOR GETTING PRODUCT LIST IS NOT STARTED, WILL TAKE DATA FROM JSON
 
 ## Project setup
 ```
