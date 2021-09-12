@@ -9,9 +9,9 @@
         <div class="cart_item_data__quantity">
             <p>Qty:</p>
             <span>
-                <span class="quantit__btn" @click="decrementItem">-</span>
+                <span class="quantity__btn" @click="decrementItem">-</span>
                 {{cart_item_data.quantity}}
-                <span class="quantit__btn" @click="incrementItem">+</span>
+                <span class="quantity__btn" @click="incrementItem">+</span>
             </span>
         </div>
         <button @click="deleteFromCart">Delete</button>
@@ -41,7 +41,6 @@ export default {
         },
         incrementItem(){
             this.$emit('increment')
-
         },
         deleteFromCart(){
             this.$emit('deleteFromCart')

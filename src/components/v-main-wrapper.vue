@@ -1,5 +1,6 @@
 <template>
     <div class="v-main-wrapper">
+        <h1 class="v-main-wrapper__title">{{title}}</h1>
         <keep-alive>
             <router-view></router-view>
         </keep-alive>
@@ -16,7 +17,7 @@ export default{
     data(){
 
        return {
-           title: "Main wrapper"
+           title: "Buy our T-Shirt!"
        }
     },
     computed: {},
@@ -29,11 +30,19 @@ export default{
 </script>
 
 
-<style style="scss">
+<style lang="scss">
     .v-main-wrapper{
         
         max-width: 900px;
         margin: 0 auto;
-
+        &__title{
+            font-size: 40px;
+            max-width: fit-content;
+            margin: 0 auto;
+            border: 2px dashed $green-bg;
+            text-transform: uppercase;
+            padding: $padding;
+            margin-top: -57px;
+        }
     }
 </style>

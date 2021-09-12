@@ -6,7 +6,7 @@ export default {
         commit('INCREMENT', index)
     },
     DECREMENT_CART_ITEM({commit}, index){
-        commit('DECREMENT', index)
+        commit('DECREMENT', index);
     },
     DELETE_FROM_CART({commit}, index){
         commit('REMOVE_FROM_CART', index)

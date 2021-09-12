@@ -27,6 +27,8 @@ export default{
     DECREMENT: (state, index) => {
         if(state.cart[index].quantity > 1){
             state.cart[index].quantity--
+        }else{
+            state.cart.splice(index, 1)
         }
     },
 }

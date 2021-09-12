@@ -4,7 +4,7 @@
         <div class="v-catalog__link-to-cart">Back to Catalog</div>
         </router-link>
         <h1>Cart</h1>
-        <p v-if="!cart_data.length">There are no products in cart...</p>
+        <p v-if="!cart_data.length">There are no products here...</p>
         <v-cart-item 
             v-for="(item, index) in cart_data"
             :key="item.article"
@@ -49,7 +49,7 @@ export default {
                     result.push(item.price*item.quantity);
                 }
 
-            result = result.reduce(function (sum, el){
+                    result = result.reduce(function (sum, el){
                     return sum + el;
                 })
 
@@ -70,7 +70,6 @@ export default {
         },
         decrement(index){
             this.DECREMENT_CART_ITEM(index)
-
         },
         deleteFromCart(index){
             this.DELETE_FROM_CART(index)

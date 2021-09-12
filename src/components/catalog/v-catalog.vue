@@ -3,7 +3,7 @@
         <router-link :to="{name: 'cart', params: {cart_data: CART}}">
         <div class="v-catalog__link-to-cart">Cart: {{CART.length}}</div>
         </router-link>
-        <h1>Catalog</h1>
+        <h2>Catalog</h2>
         <div class="v-catalog__list">
         <vCatalogItem 
             v-for="product in PRODUCTS"
